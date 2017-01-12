@@ -9,11 +9,9 @@ $ molecule init --driver=docker --verifier=serverspec --role=apache
 
 (replace apache with the name of your role)
 
-
 2) Write serverspec tests in spec/default_spec.rb
 
 Serverspec resource reference: http://serverspec.org/resource_types.html
-
 
 3) Run the tests for your role to see them fail:
 
@@ -21,8 +19,19 @@ Serverspec resource reference: http://serverspec.org/resource_types.html
 $ molecule test
 ````
 
+4) Modify tasks/main.yml to implement the ansible code
 
-4) Modify tasks/main.yml to implement the ansible code to make the tests pass.
+5) Re-execute the ansible code on the running container:
+
+````
+$ molecule converge
+````
+
+6) Verify that the tests pass:
+
+````
+$ molecule verify
+````
 
 
 Molecule steps
