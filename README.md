@@ -35,3 +35,10 @@ $ molecule syntax   - verifies the ansible syntax
 $ molecule converge - executes the ansible on the VM/container
 $ molecule verify   - runs the serverspec tests on the VM/container
 ````
+
+
+Tips
+----
+
+ * Run molecule converge repeatedly to re-run your ansible without destroying/recreating the container
+ * Don't worry about configuring the various services - just get the main process running and tested
