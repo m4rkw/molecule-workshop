@@ -1,10 +1,6 @@
 Molecule/TDD Workshop
 =====================
 
-Instructions
-------------
-
-
 1) Create your role directory with molecule:
 
 ````
