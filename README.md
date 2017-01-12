@@ -49,15 +49,15 @@ Workshop roles
 
 easy:
 
-postfix - https://metapack.atlassian.net/browse/AWS-1116
-java8 - https://metapack.atlassian.net/browse/AWS-1117
-apache2.4 - https://metapack.atlassian.net/browse/AWS-1118
-ntp - https://metapack.atlassian.net/browse/AWS-1119
-nginx - https://metapack.atlassian.net/browse/AWS-1121
+- postfix - https://metapack.atlassian.net/browse/AWS-1116
+- java8 - https://metapack.atlassian.net/browse/AWS-1117
+- apache2.4 - https://metapack.atlassian.net/browse/AWS-1118
+- ntp - https://metapack.atlassian.net/browse/AWS-1119
+- nginx - https://metapack.atlassian.net/browse/AWS-1121
 
 hard:
 
-python - https://metapack.atlassian.net/browse/AWS-1120
-filebeat - https://metapack.atlassian.net/browse/AWS-1122
-exim4 - https://metapack.atlassian.net/browse/AWS-1123
-dataloop-agent - https://metapack.atlassian.net/browse/AWS-1124
+- python - https://metapack.atlassian.net/browse/AWS-1120
+- filebeat - https://metapack.atlassian.net/browse/AWS-1122
+- exim4 - https://metapack.atlassian.net/browse/AWS-1123
+- dataloop-agent - https://metapack.atlassian.net/browse/AWS-1124
