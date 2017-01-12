@@ -1,0 +1,26 @@
+---
+molecule:
+  test:
+    sequence:
+      - destroy
+      - syntax
+      - create
+      - converge
+      - verify
+dependency:
+  name: galaxy
+driver:
+  name: docker
+docker:
+  containers:
+    - name: dm_common_tomcat8
+      image: ubuntu
+      image_version: 16.04
+      ansible_groups:
+        - group1
+verifier:
+  name: serverspec
+ansible:
+  vault_password_file: ~/.vault/dev
+  config_file: ../../ansible.cfg
+  e: "env=dev app=dm stack=dm_capacity service=app version=5.19.1"
